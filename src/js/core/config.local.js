@@ -24,7 +24,7 @@ export default {
     // doNotRenderStatics: true,
     // -----------------------------------------------------------------------------------
     // Allow to zoom freely without limits
-    // disableZoomLimits: true,
+    disableZoomLimits: true,
     // -----------------------------------------------------------------------------------
     // All rewards can be unlocked by passing just 1 of any shape
     // rewardsInstant: true,
@@ -105,7 +105,7 @@ export default {
     // renderWireRotations: true,
     // -----------------------------------------------------------------------------------
     // Renders information about wire networks
-    // renderWireNetworkInfos: true,
+    renderWireNetworkInfos: true,
     // -----------------------------------------------------------------------------------
     // Disables ejector animations and processing
     // disableEjectorProcessing: true,
