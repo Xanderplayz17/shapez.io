@@ -5,7 +5,7 @@ export const IS_DEBUG =
     (window.location.host.indexOf("localhost:") >= 0 || window.location.host.indexOf("192.168.0.") >= 0) &&
     window.location.search.indexOf("nodebug") < 0;
 
-export const SUPPORT_TOUCH = false;
+export const SUPPORT_TOUCH = true;
 
 export const IS_MAC = navigator.platform.toLowerCase().indexOf("mac") >= 0 && !G_IS_DEV;
 
@@ -13,15 +13,15 @@ const smoothCanvas = true;
 
 export const THIRDPARTY_URLS = {
     discord: "https://discord.gg/HN7EVzV",
-    github: "https://github.com/tobspr/shapez.io",
+    github: "https://github.com/Xanderplayz17/shapez.io",
     reddit: "https://www.reddit.com/r/shapezio",
     shapeViewer: "https://viewer.shapez.io",
 
-    privacyPolicy: "https://tobspr.io/privacy.html",
+    privacyPolicy: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
 
-    standaloneStorePage: "https://store.steampowered.com/app/1318690/shapezio/",
-    stanaloneCampaignLink: "https://get.shapez.io",
-    puzzleDlcStorePage: "https://store.steampowered.com/app/1625400/shapezio__Puzzle_DLC",
+    standaloneStorePage: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    stanaloneCampaignLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    puzzleDlcStorePage: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
 
     levelTutorialVideos: {
         21: "https://www.youtube.com/watch?v=0nUfRLMCcgo&",
@@ -122,10 +122,10 @@ export const globalConfig = {
     // Secret vars
     info: {
         // Binary file salt
-        file: "Ec'])@^+*9zMevK3uMV4432x9%iK'=",
+        file: "https://www.youtube.com/watch?v=dQw4w9WgXcQhttps://www.youtube.com/watch?v=dQw4w9WgXcQhttps://www.youtube.com/watch?v=dQw4w9WgXcQ",
 
         // Savegame salt
-        sgSalt: "}95Q3%8/.837Lqym_BJx%q7)pAHJbF",
+        sgSalt: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
 
         // Analytics key
         analyticsApiKey: "baf6a50f0cc7dfdec5a0e21c88a1c69a4b34bc4a",
